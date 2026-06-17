@@ -76,7 +76,16 @@
   .form-success{display:none;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.4);
       border-radius:6px;padding:18px;margin-top:18px}
 
-  /* BOOK */
+  /* COMMUNITY */
+.community{background:var(--white);padding:80px 0}
+.community .container{max-width:1100px;margin:0 auto}
+.community h2{font-size:1.9rem;margin-bottom:14px;color:var(--ink)}
+.community p.lead{max-width:700px;margin-bottom:22px;font-size:1.05rem}
+.community-list{max-width:520px;margin-bottom:26px;padding-left:18px}
+.community-list li{margin-bottom:10px}
+.community-note{font-size:.9rem;color:#6b6d68;margin-top:10px}
+  
+      /* BOOK */
   .two-col{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
   blockquote{border-left:4px solid var(--gold);padding:8px 0 8px 22px;font-style:italic;
              color:#56584f;margin:26px 0;font-size:1.12rem}
@@ -176,8 +185,8 @@
   <div class="container">
     <h2>Read the opening of the book — free</h2>
     <p>Enter your name and email below and the <strong>Foreword, Preface, and Chapter One</strong>
-       will be sent to your inbox automatically, along with occasional updates on the book,
-       events, and new writing. No spam, ever.</p>
+       will be sent to your inbox automatically, and you'll automatically join the Fifth Stage Community — receiving thoughtful updates, essays, and event invitations.    
+    </p>
 
     <!-- Replace action URL with your email provider's form endpoint (see setup notes) -->
     <form class="signup-form" id="leadForm"
@@ -192,6 +201,34 @@
     </div>
   </div>
 </div>
+
+<!-- COMMUNITY SECTION -->
+<section class="community" id="community">
+  <div class="container">
+    <h2>Join The Fifth Stage Community</h2>
+
+    <p class="lead">
+      If you're navigating advanced osteoarthritis — or treating it — and want clarity
+      beyond the phrase “bone-on-bone,” this is where the conversation continues.
+    </p>
+
+    <ul class="community-list">
+      <li>• Book release updates (Fall 2026)</li>
+      <li>• Short conceptual essays on structure vs function</li>
+      <li>• Occasional webinar invitations</li>
+      <li>• Clinical reflections and new writing</li>
+    </ul>
+
+    <p>
+      <a class="btn" href="#signup">Join the Community</a>
+    </p>
+
+    <p class="community-note">
+      This is not a marketing list. It is a focused, thoughtful dialogue.
+      Unsubscribe anytime.
+    </p>
+  </div>
+</section>
 
 <!-- THE BOOK -->
 <section id="book">
@@ -350,11 +387,12 @@
       <div>
         <h3>Follow</h3>
         <div class="social-row">
-          <a href="#" aria-label="Instagram">IG</a>
-          <a href="#" aria-label="Facebook">f</a>
-          <a href="#" aria-label="LinkedIn">in</a>
-          <a href="#" aria-label="YouTube">▶</a>
-        </div>
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="https://yourname.substack.com" target="_blank" rel="noopener" aria-label="Substack">SS</a>
+        <a href="#" aria-label="YouTube">▶</a>
+      </div>
       </div>
     </div>
     <div class="copyright">
